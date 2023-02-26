@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(46, 98, 100);    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size:contain;
+    overflow:;
+    margin:0%;
+    
+}
+    
+    header{
+        background:black;
+        font-family:'Berkshire swash', cursive;
+        text-align: center;
+        color:papayawhip;
+        padding:20px;
+    
+        
+    
+}
+div{
+    padding:30px;
+    font-size: 24px;
+    
+    flex-direction:column;
+    justify-content: left;
+    font-family: 'Kaushan script', cursive;
+    }
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+     <!--Google Font Links-->
+     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Kaushan+Script&family=Moon+Dance&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    body{
+        background-color:rgb(46, 98, 100);    
+margin: 0%;    
+background-repeat: no-repeat;
+background-size: 100%;
+background-size: cover;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        font-family: 'Kaushan Script',cursive;
+    }
+
+    h1{
+        
+        background-color: black;
+        color:papayawhip;
+        margin:0;
+        text-align: center;
+        padding: 25px;   
+        font-family: 'Berkshire swash',cursive;
+    }
+    h2{
+        text-align: center;
+        font-family: 'Kaushan Script',cursive;
+
+    }
+</style>
+</head>
+<body>
+    <h1>Chess</h1>
+    <h2>Entry Form :</h3><br> <br>
+    <div class="flex-container">
+        <div class="flex-item">
+       <b>First Name :</b>
+       <input type="text" id="fname" placeholder="enter your first name" required>
+    <br><br>
+    <b>Middle Name :</b>
+    <input type="text" id="mname" placeholder="enter your middle name" required><br><br>
+    <b>Last Name :</b>
+    <input type="text" id="lname" placeholder="enter your last name" required><br><br><br>
+    
+    <p><b>Class :</b></p>
+    <select name="class" id=class required>
+    <option value="value" selected> 11th A</option>
+    <option value="value" selected> 11th B</option>
+    <option value="value" selected> 11th C</option>
+    <option value="value" selected> 11th D</option>
+    <option value="value" selected> 12th A</option>
+    <option value="value" selected> 12th B</option>
+    <option value="value" selected> 12th C</option>
+    <option value="value" selected> 12th D</option>
+    <option value="value" selected> --select your class--</option>
+    <br><br>
+</select>
+<form>
+    
+    
+     <b>Gender :</b><br><input type="radio" id="gender" value="male" name="gender" required> Male <br>
+        <input type="radio" id="gender" value="female"  name="gender"required> Female <br>
+        <input type="radio" id="gender" value="transgender"  name="gender" required> Transgender <br>
+        <br><br>
+<input type="submit">
+<input type="reset">
+    </form>
+</div>
+<div class="flex-item">
+    <img src="IMAGES/chess back.jpg" width="420px" height="340px">
+</div>
+</div>
+</body>
+</html>

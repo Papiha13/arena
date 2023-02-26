@@ -1,0 +1,140 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-color:rgb(46, 98, 100);    
+    margin: 0%;    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+
+}
+a:hover{
+    color:black ;
+}
+.flex-container{
+    
+}
+
+header{
+    background:black;
+    font-family:'Berkshire swash', cursive;
+    font-size: 24px;
+    font-weight:bolder;
+    text-align: center;
+    color:papayawhip;
+    flex-basis: 1280px;
+    padding:20px;
+
+}
+nav{
+    height:50px;
+    display:flex;
+    justify-content: space-evenly;
+    background: rgb(11, 23, 24);
+    align-items: center;   
+    color:papayawhip;
+}
+nav a{
+    color:papayawhip;
+    font-family: 'Kaushan script', cursive;
+    border:papayawhip, solid,2px;
+   }
+   #log-in input textarea{
+       background:#39ff14;
+   }
+
+#games a:visited{
+    color:black;
+
+}
+
+#games{
+    display:flex;
+    flex-wrap: wrap;
+    width:93%;    
+    font-family: 'Kaushan script', cursive;
+    padding: 20px;
+    margin:20px;
+    text-decoration: none;
+    color:black;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    padding-right: 20px;
+    font-size: larger;
+    text-align: center;
+}
+
+
+ input{
+     background-color: rgb(20, 43, 44);
+ }
+ 
+
+#log-in{
+    font-family: 'Kaushan script', cursive;
+     background-color:rgb(20, 43, 44);
+     border: black solid 5px;
+     display:inline-block;
+     flex-direction:column;
+     align-items: center;
+     padding-top:50px;
+     padding-right:20px;
+     padding-left: 20px;
+     padding-bottom:50px;
+     margin-top: -20px;
+     margin:20px;
+}
+#log-in a{
+     color:black;
+    
+    }
+
+ #paragraph{
+     display: inline-block;
+    
+     font-weight: 800;
+     font-size: 20px;
+     
+     padding-bottom:50px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top:50px;
+     max-width:70%;
+     color:black;
+     font-family:'Kaushan script', cursive;
+     font-weight: 700;
+     
+     flex-direction:column ;
+     margin-left: 10px;
+     margin-top: 50px;
+ }
+ #footer {
+
+     background-color:black ;
+     padding: 10px;
+     text-align: center;
+     color:papayawhip;
+     font-family:'Berkshire swash', cursive;
+    /*max-height: 70px;*/
+    font-size: 24px;
+    
+ }
+ h3{
+     margin-left: 33;
+     border:black solid 3px;
+     margin-left: 30%;
+     margin-right: 30%;
+     padding:2%;
+     font-size: 32px;
+     font-family: 'Kaushan script', cursive;
+ }
+ a{
+     text-decoration: none;
+ }
+  
+ 
+     
+    
+ 
+
